@@ -1,0 +1,27 @@
+.kerdes{
+    width: 100%;
+    background-color: rgb(80, 56, 56);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.valaszok{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.v1, .v2, .v3, .v4{
+    width: 98%;
+    background-color: rgb(211, 247, 247);
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 790px) {
+    .valaszok{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }
